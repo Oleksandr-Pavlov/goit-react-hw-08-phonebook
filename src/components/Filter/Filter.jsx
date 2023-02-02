@@ -1,17 +1,17 @@
+import { Input, Title } from './Filter.styled';
 import { useDispatch } from 'react-redux';
-import { setFilter } from 'redux/filterSlice';
-import { nanoid } from 'nanoid';
-import css from '../Filter/Filter.module.css';
+import { setFilter } from 'Redux/filterSlice';
 
 export const Filter = () => {
   const dispatch = useDispatch();
+
   return (
-    <div className={css.filter}>
-      <p>Find contacts by name</p>
-      <input
+    <div>
+      <Title>Find contacts by name</Title>
+      <Input
         type="text"
+        name="filter"
         onChange={e => dispatch(setFilter(e.currentTarget.value))}
-        id={nanoid()}
       />
     </div>
   );
