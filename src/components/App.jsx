@@ -21,7 +21,7 @@ export function App() {
   }, [dispatch]);
 
   return isRefreshing ? (
-    'More minutes later...'
+    'Refreshing...'
   ) : (
     <>
       <Routes>
