@@ -2,46 +2,36 @@ import styled from 'styled-components';
 
 export const Form = styled.form`
   border-radius: 20px;
-
   display: flex;
   flex-direction: column;
-
   width: 100%;
 `;
 
 export const Label = styled.label`
   transform: translate(-30px, 14px) scale(0.75);
-
   height: 0;
 `;
 
 export const Input = styled.input`
-  display: block;
-  width: 382px%;
+  border: 2px solid yellowgreen;
   margin: 10px 0;
   padding: 10px;
   padding-top: 20px;
-
   border-radius: 10px;
-  border: 1px solid #eee;
-  transition: 0.3s border-color;
 `;
 
 export const Button = styled.button`
-  appearance: none;
-  -webkit-appearance: none;
-  /* usual styles */
   padding: 12px;
   margin-top: 10px;
-
-  border: none;
-  background-color: #3f51b5;
-  color: #fff;
+  border: 2px solid yellowgreen;
   font-weight: 600;
   font-size: 20px;
   border-radius: 10px;
+  transition: all 200ms linear;
 
-  cursor: pointer;
-  width: 100%;
-  height: 45px;
+  &:hover {
+    transform: scale(1.05);
+    background-color: yellowgreen;
+    color: white;
+  }
 `;

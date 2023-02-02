@@ -35,14 +35,13 @@ export const ContactForm = () => {
         contact => contact.name.toLowerCase() === name.toLowerCase()
       )
     ) {
-      Report.warning('Warning', `${name} already exists`, 'Okay');
+      Report.warning('Warning', `${name} is already exists`, 'Okay');
 
       event.target.reset();
       return;
     }
 
     dispatch(addContact({ name, number }));
-    Report.success('Great!', `${name} added`, 'Okay');
     event.target.reset();
   };
 

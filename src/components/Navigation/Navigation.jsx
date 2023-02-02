@@ -10,7 +10,7 @@ export const Navigation = () => {
   return (
     <>
       <Header>
-        <NavLink to="/" key="home">
+        <NavLink to="/" key="home" style={{"color": "yellowgreen", "fontWeight": 500}}>
           {isLoggedIn ? 'Contacts' : 'Home'}
         </NavLink>
         {isLoggedIn ? (
