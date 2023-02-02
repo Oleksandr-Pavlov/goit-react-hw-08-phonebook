@@ -1,6 +1,6 @@
 import { Report } from 'notiflix/build/notiflix-report-aio';
 import { useDispatch } from 'react-redux';
-import { register } from 'Redux/auth/operations';
+import { register } from 'redux/auth/operations';
 import { Button, Form, Input, Label } from './Register.styled';
 
 export const Register = () => {
