@@ -1,8 +1,8 @@
 import { Report } from 'notiflix/build/notiflix-report-aio';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact } from 'Redux/operations';
-import { selectContacts } from 'Redux/selectors';
+import { addContact } from 'redux/operations';
+import { selectContacts } from 'redux/selectors';
 
 import { Form, Input, Label, Button } from './ContactForm.styled';
 

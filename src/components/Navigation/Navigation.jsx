@@ -1,5 +1,4 @@
 import { useAuth } from 'components/hooks/useAuth';
-
 import { Header, List, NavItem } from './Navigation.styled';
 import { UserMenu } from 'components/UserMenu/UserMenu';
 import { NavLink } from 'react-router-dom';
