@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addContact } from 'redux/operations';
 import { selectContacts } from 'redux/selectors';
-
 import { Form, Input, Label, Button } from './ContactForm.styled';
 
 export const ContactForm = () => {

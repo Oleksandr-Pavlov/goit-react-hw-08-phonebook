@@ -6,7 +6,7 @@ import { Register } from '../pages/Register/Register';
 import { Contacts } from 'pages/Contacts/Contacts';
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
-import { refresh } from 'Redux/auth/operations';
+import { refresh } from 'redux/auth/operations';
 import { useAuth } from './hooks/useAuth';
 import { RestrictedRoute } from './RestrictedRoute';
 import { PrivateRoute } from './PrivateRoute';
