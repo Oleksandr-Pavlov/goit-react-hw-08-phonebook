@@ -26,7 +26,6 @@ button {
 
 a {
   text-decoration: none;
-  cursor: default
 }
 
 p {
