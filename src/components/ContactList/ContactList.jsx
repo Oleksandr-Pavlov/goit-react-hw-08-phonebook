@@ -18,9 +18,11 @@ export const ContactList = () => {
     <Box>
       {contacts.map(({ id, name, number }) => (
         <Contact key={id}>
-          {name}: {number}
+          <p>
+            <b>{name}:</b> {number}
+          </p>
           <Button type="button" onClick={() => dispatch(deleteContact(id))}>
-            X
+            Delete
           </Button>
         </Contact>
       ))}

@@ -10,9 +10,6 @@ export const GlobalStyle = createGlobalStyle`
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-   background-color: rgb(231 236 242);
-      color: rgb(1,67,97);
 }
 
 code {
@@ -22,11 +19,20 @@ code {
 
 ul {
   list-style: none;
-   margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
- a {
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+a {
     text-decoration: none;
-   }
+  }
+  
+  p {
+    margin: 0;
+  }
 `;

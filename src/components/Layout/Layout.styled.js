@@ -9,5 +9,5 @@ export const Section = styled.div`
   padding: 40px;
   box-shadow: 0 0 10px #c6cccced;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: lightgoldenrodyellow;
 `;

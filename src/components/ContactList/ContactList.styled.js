@@ -3,33 +3,28 @@ import styled from 'styled-components';
 export const Box = styled.ul`
   margin-top: 15px;
   padding: 0px;
-
   width: 400px;
-
-  background-color: aliceblue;
-
-  border-radius: 10px;
 `;
 
 export const Contact = styled.li`
   &:not(:first-child) {
     border-top: 1px solid gray;
   }
-  padding: 15px 15px 15px 20px;
-
-  width: 365px;
-
+  padding: 10px;
   display: flex;
-  flex-direction: row;
-
+  justify-content: space-between;
   align-items: center;
 `;
 
 export const Button = styled.button`
-  margin-left: auto;
-  margin-right: 10px;
+  padding: 5px 10px;
+  border: 2px solid yellowgreen;
+  border-radius: 5px;
+  transition: all 200ms linear;
 
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    background-color: yellowgreen;
+    color: white;
+  }
 `;

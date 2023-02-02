@@ -11,7 +11,7 @@ export const UserMenu = () => {
 
   return (
     <UserNav>
-      <P>{user.email}</P>
+      <P>Hello, {user.name}</P>
       <Btn onClick={handleLogOut}>Logout</Btn>
     </UserNav>
   );
